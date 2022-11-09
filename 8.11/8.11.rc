@@ -1,0 +1,163 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "but.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 648
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 240
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 655, 247
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Тест "
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "1) 2*2=?",IDC_STATIC,12,12,76,54
+    CONTROL         "10",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,18,24,24,10
+    CONTROL         "2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,18,36,20,10
+    CONTROL         "6",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,18,48,20,10
+    GROUPBOX        "2) Чего нет в компьютере?",IDC_STATIC,12,72,102,48
+    CONTROL         "Процессор",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | WS_GROUP,18,84,51,10
+    CONTROL         "Духовка",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,18,96,43,10
+    CONTROL         "SSD",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,18,108,30,10
+    GROUPBOX        "3) С чего начинается индекс?",IDC_STATIC,12,132,108,48
+    CONTROL         "-1",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | WS_GROUP,18,144,23,10
+    CONTROL         "0",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,18,156,20,10
+    CONTROL         "1",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON,18,168,20,10
+    GROUPBOX        "4) Где находится корма?",IDC_STATIC,12,186,108,48
+    CONTROL         "Сзади",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON | WS_GROUP,18,198,36,10
+    CONTROL         "Спереди",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON,18,210,45,10
+    CONTROL         "По центру",IDC_RADIO12,"Button",BS_AUTORADIOBUTTON,18,222,50,10
+    GROUPBOX        "5) Кто сейчас президент Украины?",IDC_STATIC,132,12,132,54
+    CONTROL         "Порошенко",IDC_RADIO13,"Button",BS_AUTORADIOBUTTON | WS_GROUP,144,24,54,10
+    CONTROL         "Труханов",IDC_RADIO14,"Button",BS_AUTORADIOBUTTON,144,36,47,10
+    CONTROL         "Зеленский",IDC_RADIO15,"Button",BS_AUTORADIOBUTTON,144,48,51,10
+    GROUPBOX        "6) Кто создал C++&?",IDC_STATIC,132,72,120,48
+    CONTROL         "Страуструп",IDC_RADIO16,"Button",BS_AUTORADIOBUTTON | WS_GROUP,144,84,54,10
+    CONTROL         "Гослинг",IDC_RADIO17,"Button",BS_AUTORADIOBUTTON,144,96,42,10
+    CONTROL         "Леордорфом",IDC_RADIO18,"Button",BS_AUTORADIOBUTTON,144,108,59,10
+    GROUPBOX        "7) Чот тут фрукты?",IDC_STATIC,132,132,96,48
+    GROUPBOX        "8) Кто спит вниз головой?",IDC_STATIC,132,186,102,48
+    GROUPBOX        "9) Родился в воде, живет на земле?",IDC_STATIC,282,12,138,54
+    CONTROL         "Орел",IDC_RADIO22,"Button",BS_AUTORADIOBUTTON | WS_GROUP,138,198,33,10
+    CONTROL         "Летучая мышь",IDC_RADIO23,"Button",BS_AUTORADIOBUTTON,138,210,66,10
+    CONTROL         "Воробей",IDC_RADIO24,"Button",BS_AUTORADIOBUTTON,138,222,44,10
+    CONTROL         "Огурец",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,144,144,39,10
+    CONTROL         "Яблоко",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,144,156,40,10
+    CONTROL         "Банан",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,144,168,37,10
+    CONTROL         "Собака",IDC_RADIO27,"Button",BS_AUTORADIOBUTTON | WS_GROUP,288,84,40,10
+    CONTROL         "Ящерица",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,294,24,47,10
+    CONTROL         "Лягушка",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,294,36,45,10
+    CONTROL         "Жаба",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,294,48,35,10
+    GROUPBOX        "10)Кто на фото?",IDC_STATIC,282,72,144,60
+    CONTROL         "Бабочка",IDC_RADIO28,"Button",BS_AUTORADIOBUTTON,288,96,44,10
+    CONTROL         "Кошка",IDC_RADIO29,"Button",BS_AUTORADIOBUTTON,288,108,37,10
+    CONTROL         "Лягушка",IDC_RADIO30,"Button",BS_AUTORADIOBUTTON,288,120,45,10
+    CONTROL         IDB_BITMAP1,IDC_PICTURE1,"Static",SS_BITMAP,354,84,46,40
+    PUSHBUTTON      "Завершить тест",IDC_BUTTON1,456,108,150,36
+    GROUPBOX        "11) Столица Великобритании",IDC_STATIC,282,139,145,40
+    EDITTEXT        IDC_EDIT1,288,156,135,14,ES_AUTOHSCROLL
+    GROUPBOX        "12) Какая война шла 116 лет?",IDC_STATIC,281,188,146,40
+    EDITTEXT        IDC_EDIT2,288,204,133,14,ES_AUTOHSCROLL
+    GROUPBOX        "Как переводиться cookie",IDC_STATIC,450,12,156,40
+    EDITTEXT        IDC_EDIT3,456,24,138,18,ES_AUTOHSCROLL
+    GROUPBOX        "Какого цвета небо?",IDC_STATIC,450,54,156,36
+    EDITTEXT        IDC_EDIT4,456,66,138,18,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
