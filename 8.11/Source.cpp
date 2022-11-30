@@ -60,9 +60,9 @@ DWORD WINAPI Thread1(LPVOID lp)
         if (time == 0)
             break;
     }
-    SetWindowText((HWND)lp, TEXT("Осталось времени: 0 сек."));
-    SetPriorityClass(GetCurrentProcess(), prior_proc);
-    SetThreadPriority(GetCurrentThread(), prior_thread);
+	SetWindowText((HWND)lp, TEXT("Осталось времени: 0 сек."));
+	SetPriorityClass(GetCurrentProcess(), prior_proc);
+	SetThreadPriority(GetCurrentThread(), prior_thread);
     MessageBox((HWND)lp, TEXT("Время вышло"), TEXT("Тест"), MB_OK);
     EndDialog((HWND)lp, 0);
 }
